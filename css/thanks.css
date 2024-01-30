@@ -1,0 +1,32 @@
+body {
+    background-image: url("Booking\ form\ background_.png");
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    font-size: xxx-large;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: xxxx-large;
+    color: rgb(87, 22, 0);
+    margin-left: 37%;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    font-size: xxxx-large;
+    color: rgb(87, 22, 0);
+    margin-left: 28%;
+}
+
+a {
+    padding: 13px;
+    color: rgb(87, 22, 0);
+    background-color: rgb(165,118,103);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px; /* Adjust the value to your preference for bottom margin */
+    left: 37%; /* Adjust the left position as needed */
+}
