@@ -1,0 +1,108 @@
+body {
+    background-image: url("Booking\ form\ background_.png");
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background-color: rgba(222, 199, 168, 0.5);; /* Adjust the last value for transparency */
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+}
+
+form {
+    font-family: 'Segoe UI';
+    font-size: large;
+    color: rgb(87, 22, 0);
+    margin-left: 35%;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: xxx-large;
+    color: rgb(87, 22, 0);
+    margin-left: 35%;
+}
+
+h3 {
+    font-family: 'Segoe UI';
+    font-size: medium;
+    margin-left: 35%;
+    color: rgb(87, 22, 0);
+}
+
+p {
+    font-family: 'Segoe UI';
+    font-size: medium;
+    color: rgb(87, 22, 0);
+}
+
+ul {
+    display: inline-table;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: rgb(165,118,103);
+    border-radius: 10px;
+    background-size: cover;
+    list-style-type: circle; /* You can change this to square, circle, etc. */
+    padding: 0;
+    margin: 5px 0;
+}
+
+li {
+    font-family: lucida ;
+    margin: 5px 0;
+}
+
+.booking-option {
+    width: 300px; /* Adjust the width as needed */
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 45%;
+    padding: 10px;
+    background-color: rgb(165,118,103);
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(165,118,103);
+    font-size: 20px;
+}
+
+.event-options-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.event-options-container > div {
+    flex: 0 0 35%; /* Adjust the width as needed with a little space between elements */
+    margin-right: 2%; /* Add a small margin between elements */
+}
+
+hr {
+    color: rgb(87, 22, 0);
+    width: 45%;
+    margin: 20px 0; /* Optional: Add margin for spacing */
+}
+
+h4 {
+    font-size: xxx-large;
+    margin: 25px;
+}
+
+button {
+    padding: 1%;
+    font-size: x-large;
+    color: rgb(87, 22, 0);
+    background-color: rgb(165,118,103);
+    border-radius: 5px;
+    margin-left: 16%;
+}
