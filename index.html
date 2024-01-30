@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+        <link rel="stylesheet" href="css/booking.css">
+        <script src="js/update.js" defer></script>
+<head>
+    <title>Spiced Destination Catering Booking Form</title>
+</head>
+<body>
+<div class="form-container">
+    <h1>Booking form</h1>
+    <h3>Please complete the following form to</h3>
+    <h3>accurately quote your catered event...</h3>
+    <section class="bookingForm">
+
+        <form id="bookingForm" method="post" action="/process_form.php" enctype="application/x-www-form-urlencoded">
+
+            <label for="Date">Date - Duration if applicable</label><br>
+            <input type="datetime-local" id="Date" name="Date" required>
+            <br>
+            <hr>
+
+            <!-- Expense Information -->
+            <label for="Quantity">Quantity - Number of people that require catering</label><br>
+            <input type="number" id="Quantity" name="Quantity" required>
+            <br>
+            <hr>
+
+            <label for="Dietary">Dietary requirements & quantity</label><br>
+            <input type="text" id="Dietary" name="Dietary" required>
+            <br>
+            <hr>
+
+            <label for="Address">Address - Destination for booking </label><br>
+            <p>For multiple destinations, please list them in date order</p>
+            <input type="text" id="Address" name="Address" required>
+            <br>
+            <hr>
+            <br><br><br>
+
+            <label for="Booking">Booking Options - Please specify your requirements </label><br>
+            <div class="event-options-container">
+                <div>
+                    <ul>
+                        <p>TYPE OF EVENT</p>
+                        <li>Wedding</li>
+                        <li>Safari</li>
+                        <li>Retreat</li>
+                        <li>Birthday</li>
+                        <li>Other</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <p>SERVICE OPTIONS</p>
+                        <li>Canapés</li>
+                        <li>Buffet</li>
+                        <li>Silver Service</li>
+                        <li>Spit Braai</li>
+                        <li>Tasting Menu</li>
+                    </ul>
+                </div>
+            </div>
+            <input type="text" id="Booking" name="Booking" required>
+            <br>
+            <hr>
+
+            <label for="Rental">Rental Options - Please specify your requirements </label><br>
+            <div class="rental-option">
+                <ul>
+                    <li>Decor (Please provide theme)</li>
+                    <li>Crockery and cutlery </li>
+                    <li>Tables and chairs </li>
+                    <li>Linen (table cloths & serviettes) </li>
+                    <li>Extra (Please comment below)</li>
+                </ul>
+            </div>
+            <input type="text" id="Rental" name="Rental" required>
+            <br>
+            <hr>
+
+            <label for="Theme">Other theme Options - Please specify your requirements </label><br>
+            <div class="theme-option">
+                <ul>
+                    <li>Casino Night</li>
+                    <li>Bush Carnival</li>
+                    <li>Gatsby Glam</li>
+                    <li>Karki Fever</li>
+                    <li>Mexican Feast</li>
+                </ul>
+            </div>
+            <input type="text" id="Theme" name="Theme" required>
+            <br>
+            <hr>
+
+            <label for="Staff">Staff - Please specify if you would like extra staff</label><br>
+            <p>Note - certain function styles have a base number of staff for service...</p>
+            <input type="text" id="Staff" name="Staff" required>
+            <br>
+            <hr>
+
+            <label for="Beverages">Beverages - Please specify particular brands and quantities </label><br>
+            <p>Note - certain function styles have a base amount for service per person...</p>
+            <input type="text" id="Beverages" name="Beverages" required>
+            <hr>
+
+            <h4>Contact Details</h4>
+
+            <label for="Client">Name</label><br><br>
+            <input type="text" id="Client" name="Client" required><br>
+            <hr>
+
+            <label for="Contact">Phone Number</label><br>
+            <p>Please provide 2 numbers that we can reach you at...</p>
+            <input type="text" id="Contact" name="Contact" required><br><br>
+            <input type="text" id="Contact 2" name="Contact 2" required>
+            <br>
+            <hr>
+
+            <label for="Email">Email</label><br>
+            <p>Note - we will send your quote to this email...</p>
+            <input type="text" id="Email" name="Email" required><br>
+            <hr>
+
+            <!-- Submit Button -->
+            <button type="button" id="submitBtn" onclick="submitForm()">SUBMIT</button>
+        </form>
+    </section>
+</div>
+</body>
+</html>
